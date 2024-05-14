@@ -7,6 +7,19 @@
 
   <i18n:registerTranslations directory="locales" />
 
+  <include package="plone.distribution" />
+
+  <plone:distribution
+      name="iocomune-distribution"
+      title="IoComune Distribution"
+      description="A Plone plone site with IoComune"
+      directory="distributions/iocomune"
+      pre_handler=".handlers.iocomune_distribution.pre_handler"
+      handler=".handlers.iocomune_distribution.handler"
+      post_handler=".handlers.iocomune_distribution.post_handler"
+
+      />
+
   <!--
     Be careful if you use general includeDependencies, it can have side effects!
     Better import explicit packages or configurations ;)
