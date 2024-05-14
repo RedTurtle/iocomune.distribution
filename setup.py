@@ -76,5 +76,6 @@ setup(
     target = plone
     [console_scripts]
     update_locale = iocomune.distribution.locales.update:update_locale
+    export-distribution = plone.distribution.cli:export
     """,
 )
