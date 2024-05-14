@@ -1,0 +1,6 @@
+[report]
+include =
+    src/iocomune/*
+omit =
+    */test*
+    */upgrades/*
