@@ -13,7 +13,7 @@
       name="iocomune-distribution"
       title="IoComune Distribution"
       description="A Plone plone site with IoComune"
-      directory="distributions/iocomune"
+      directory="distributions/iocomune-distribution"
       pre_handler=".handlers.iocomune_distribution.pre_handler"
       handler=".handlers.iocomune_distribution.handler"
       post_handler=".handlers.iocomune_distribution.post_handler"

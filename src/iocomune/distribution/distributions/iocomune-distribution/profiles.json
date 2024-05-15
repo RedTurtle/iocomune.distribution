@@ -1,11 +1,8 @@
-//If you want to add a Plone backend add-on to your Plone distribution, then you must perform the following steps.
-//Add your add-on to your setup.py:
-//
-//base: List of profiles installed in every new site using this distribution.
-//content: List of profiles installed when the user decides to create a site with example content.
-// Volto basic site below
 {
     "base": [
+        "plone.app.contenttypes:default",
+        "plone.app.caching:default",
+        "plonetheme.barceloneta:default",
         "design.plone.policy:default"
     ],
     "content": [
