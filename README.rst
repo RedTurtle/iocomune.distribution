@@ -36,7 +36,7 @@ IoComune Distribution
 Features
 --------
 
-- Can be bullet points
+- Implements a distribution of IoComune
 
 
 Examples
@@ -57,7 +57,7 @@ Translations
 
 This product has been translated into
 
-- Klingon (thanks, K'Plai)
+- English
 
 
 Installation
@@ -79,7 +79,7 @@ and then running ``bin/buildout``
 Authors
 -------
 
-Provided by awesome people ;)
+RedTurtle
 
 
 Contributors
@@ -87,7 +87,7 @@ Contributors
 
 Put your name here, you deserve it!
 
-- ?
+- folix-01
 
 
 Contribute
