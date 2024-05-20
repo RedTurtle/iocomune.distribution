@@ -9,12 +9,6 @@ Features
 
 - Implements a distribution of IoComune
 
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
 Translations
 ------------
 
@@ -47,8 +41,6 @@ RedTurtle
 
 Contributors
 ------------
-
-Put your name here, you deserve it!
 
 - folix-01
 
